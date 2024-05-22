@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
 button {
   background-color: #f44336;
   border: none;
@@ -15,6 +20,23 @@ button {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.myButton {
+#buttonContainer {
+  margin-top: 200px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+}
+
+.task button {
+  margin-left: 10px;
+}
+
+#todoContainer {
   margin-top: 200px;
 }
